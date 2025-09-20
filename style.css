@@ -1,0 +1,170 @@
+body{
+    margin:20px;
+    background-color: rgba(152, 237, 248, 0.39); 
+}
+
+/* шапка */
+.header,.footer{
+   
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    border:1px solid yellow;
+    border-radius:50%;
+    object-fit: cover; 
+}
+
+
+
+
+/* Основа */
+main{
+    margin: 5% 0; /* и снизу и сверху */
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    border:1px solid rgba(63, 63, 63, 0.658);
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    border-radius:20px;
+    overflow: hidden; /* скругляет все содержимое*/
+}
+
+.card h2{
+    text-align: center;
+    
+}
+.card img{
+    object-fit: cover; 
+    height: 300px;
+}
+
+.card p{
+    margin-top:0;
+   
+}
+
+/* подвал */
+footer a{
+    text-decoration: none;
+}
+
+
+/* следующие задание */
+.next {
+    text-align: center; 
+    margin: 30px 0;
+}
+
+.btn {
+    background-color: #2777ac;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Таблицы */
+.tb{
+    /* убирает двойные границы */
+    border-collapse: collapse;
+     margin: 20px auto;         
+}
+
+.tb td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+
+
+
+
+
+/* формы */
+.order-form{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    background-color: white;
+    padding:5px;    
+}
+.order-form li {
+   display: flex;
+   margin:10px 0;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+ul div{
+    display: flex;
+    justify-content: center ;
+}
+
+ul div button{
+    margin:10px;
+}
+
+
+
+
+
+/* формы  2*/ 
+.blform{
+    display: flex;
+    justify-content: center;
+    
+}
+.form2{
+    width: 500px;
+    background-color: white;
+    display: flex;
+    margin:10px 0;
+    flex-direction: column;
+    padding:5px;  
+    
+}
+.but2{
+    margin-top:15px;
+}
+
+
+
+
+/* Последнее задание */
+
+.mat{
+    text-align: center;
+    color:blue; 
+    font-family: Monotype Corsiva;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+
+.table{
+    width: 100%;
+    border:1px solid black;
+    margin-bottom: 20px;
+}
+
+.table  td{
+    width: 20%;
+    border:2px solid black;
+}

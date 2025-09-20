@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="tabl">
+        <h3 style="color:blue; text-align: center;">Т а б л и ц ы в HTML</h1>
+
+            <p style=" margin-left: 20px; background-color: aqua; display: inline; border:1px solid aqua"> Одним из
+                наиболее мощных и широко
+                применяемых в
+
+                <strong style="font-family: arial;">HTML</strong> средств являются
+
+                <span style="font-family: Verdana, sans-serif; font-style: italic;">таблицы.
+                </span>
+            </p>
+
+            <br>
+            <p style="text-align: right;">
+                <span
+                    style="background-color: yellow;           text-decoration: underline; border:1px solid yellow">Понятие
+                    табличного представления данных не нуждается в дополнительном пояснении.
+                </span>
+                <span
+                    style="background-color: rgb(190, 189, 189); font-family: arial; border:1px solid  rgb(190, 189, 189) ">В
+                    HTML таблицы используются не только традиционно, как метод представления данных, но и как средство
+                    форматирования Web-страниц.
+                </span>
+            </p>
+
+            <h4 style="color:rgb(183, 2, 255)">Создание простейших HTML-таблиц</h4>
+
+            <p><strong style="background-color: violet;font-style: italic; font-family: verdana;">Описание</strong>
+                <span style="font-style: italic; font-family: verdana; text-decoration: underline;">таблиц</span>
+
+                <span style="font-family: arial; text-decoration: underline;">должно</span> <span
+                    style="font-family: calibri;">располагаться внутри раздела документа &lt;BODY&gt;.</span>
+            </p>
+
+            <p style="font-family:arial; margin: 0;">
+                Каждая <a href="" style="color:blue">таблица</a> должна НАЧИНАТЬСЯ тэгом &lt;TABLE&gt; и </p>
+            <p style="text-align: center;  margin:0; padding-right:60px;font-family:arial;">завершаться тэгом
+                &lt;/TABLE&gt;.
+            </p>
+
+            <br>
+            <p
+                style="background-color: rgb(163, 163, 163); display: inline; margin-left: 20px; border:2px solid  rgb(163, 163, 163);">
+                <strong style="color:blue; font-family: Monotype Corsiva;">Каждая</strong> строка начинается тэгом
+                &lt;TR&gt;(Table Row) и завершаться тэгом &lt;/TR&gt;. <strong
+                    style="font-family: Monotype Corsiva; color: red;">Отдельная</strong> ячейка в строке обрамляется
+                парой тегов &lt;TD&gt; и
+            </p>
+
+            <p
+                style="font-family:arial;background-color: rgb(163, 163, 163); border: 1px solid rgb(163, 163, 163); margin-left:50px; display:inline; ">
+                &lt;/TD&gt; (Table Data) или &lt;TH&gt; и &lt;/TH&gt; (Table Header)
+            </p>
+
+
+            <br>
+            <h4 style="text-align: right; margin-bottom:0">Таблица1</h4>
+            <p class="mat">Математические выражения</p>
+
+            <table class="table">
+                
+                <tr>
+                    <td style="font-family: Monotype Corsiva; font-weight: bold; vertical-align: top;">Поле1</td>
+                    <td style="background-color: black; color:white; text-align: center; font-weight: bold; font-family: arial;">Поле 2</td>
+                    <td style="background-color: aqua; color:blue; text-align: right; font-family: verdana; font-weight: bold;">Поле 3</td>
+                    <td style="background-color: fuchsia; color:black; text-decoration: underline;
+                    font-weight: bold; font-family: arial; font-style: italic;">Поле 4</td>
+                    <td style="background-color: yellow; font-weight: bold; text-align: center;">П о л е 5</td>
+                </tr>
+                <tr>
+                    <td style="color:blue; font-weight: bold;">(a+b)<sup>2</sup></td>
+                    <td style="font-weight: bold; text-align: center;">a<sup>2</sup> - b<sup>2</sup></td>
+                    <td style="color: blue; font-weight: bold; font-family: arial; text-align: right;">(a-b)<sup>3</sup></td>
+                    <td style="font-weight: bold;">A<sub>1</sub>+A<sub>2</sub>+...+A<sub>i</sub></td>
+                    <td style="color:blue; font-weight: bold; text-align: center;">y = x<sup>2</sup></td>
+                </tr>
+            </table>
+    </div>
+    
+    </div>
+
+    <!-- Ссылка на след задание и предыдущее -->
+    <div class="next">
+        <a href="index.html" class="btn">На главную</a>
+    </div>
+
+    <div class="next">
+        <a href="next2.html" class="btn">Предыдущие задание</a>
+    </div>
+</body>
+
+
+<style>
+    .container{
+        display:flex;
+        justify-content: center;
+    }
+    .tabl {
+        background-color: white;
+        padding:0 10px;
+        width: 500px;
+    }
+    
+
+</style>
+
+</html>
